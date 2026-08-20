@@ -1,0 +1,410 @@
+{
+  "generatedFrom": "git archive HEAD",
+  "count": 101,
+  "images": [
+    {
+      "relPath": "android/app/src/main/res/drawable-hdpi/splashscreen_logo.png",
+      "bytes": 25562
+    },
+    {
+      "relPath": "android/app/src/main/res/drawable-mdpi/splashscreen_logo.png",
+      "bytes": 16425
+    },
+    {
+      "relPath": "android/app/src/main/res/drawable-xhdpi/splashscreen_logo.png",
+      "bytes": 35572
+    },
+    {
+      "relPath": "android/app/src/main/res/drawable-xxhdpi/splashscreen_logo.png",
+      "bytes": 54071
+    },
+    {
+      "relPath": "android/app/src/main/res/drawable-xxxhdpi/splashscreen_logo.png",
+      "bytes": 79370
+    },
+    {
+      "relPath": "android/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "bytes": 1878
+    },
+    {
+      "relPath": "android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.webp",
+      "bytes": 5072
+    },
+    {
+      "relPath": "android/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "bytes": 1878
+    },
+    {
+      "relPath": "android/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "bytes": 1210
+    },
+    {
+      "relPath": "android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.webp",
+      "bytes": 3310
+    },
+    {
+      "relPath": "android/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "bytes": 1210
+    },
+    {
+      "relPath": "android/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "bytes": 2532
+    },
+    {
+      "relPath": "android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.webp",
+      "bytes": 6758
+    },
+    {
+      "relPath": "android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "bytes": 2532
+    },
+    {
+      "relPath": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "bytes": 3792
+    },
+    {
+      "relPath": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.webp",
+      "bytes": 10216
+    },
+    {
+      "relPath": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "bytes": 3792
+    },
+    {
+      "relPath": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "bytes": 5106
+    },
+    {
+      "relPath": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.webp",
+      "bytes": 13596
+    },
+    {
+      "relPath": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "bytes": 5106
+    },
+    {
+      "relPath": "android/gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 43764
+    },
+    {
+      "relPath": "assets/images/adaptive-icon.png",
+      "bytes": 66945
+    },
+    {
+      "relPath": "assets/images/favicon.png",
+      "bytes": 2026
+    },
+    {
+      "relPath": "assets/images/icon.png",
+      "bytes": 60131
+    },
+    {
+      "relPath": "assets/images/logo-mark.png",
+      "bytes": 66945
+    },
+    {
+      "relPath": "assets/images/logo-source-approved.png",
+      "bytes": 590429
+    },
+    {
+      "relPath": "assets/images/splash-icon.png",
+      "bytes": 66945
+    },
+    {
+      "relPath": "assets/sounds/tap.wav",
+      "bytes": 2028
+    },
+    {
+      "relPath": "ios/Floriva/Images.xcassets/AppIcon.appiconset/App-Icon-1024x1024@1x.png",
+      "bytes": 60131
+    },
+    {
+      "relPath": "ios/Floriva/Images.xcassets/SplashScreenLegacy.imageset/image.png",
+      "bytes": 66945
+    },
+    {
+      "relPath": "ios/Floriva/Images.xcassets/SplashScreenLegacy.imageset/image@2x.png",
+      "bytes": 66945
+    },
+    {
+      "relPath": "ios/Floriva/Images.xcassets/SplashScreenLegacy.imageset/image@3x.png",
+      "bytes": 66945
+    },
+    {
+      "relPath": "screenshots/android/10-today.png",
+      "bytes": 242659
+    },
+    {
+      "relPath": "screenshots/android/11-calendar.png",
+      "bytes": 224954
+    },
+    {
+      "relPath": "screenshots/android/12-insights.png",
+      "bytes": 232101
+    },
+    {
+      "relPath": "screenshots/android/13-settings.png",
+      "bytes": 219492
+    },
+    {
+      "relPath": "screenshots/android/20-day-detail.png",
+      "bytes": 257993
+    },
+    {
+      "relPath": "screenshots/android/21-cycle-history.png",
+      "bytes": 136079
+    },
+    {
+      "relPath": "screenshots/android/22-timeline.png",
+      "bytes": 242066
+    },
+    {
+      "relPath": "screenshots/android/23-about-estimates.png",
+      "bytes": 166892
+    },
+    {
+      "relPath": "screenshots/android/30-cycle-pattern.png",
+      "bytes": 161355
+    },
+    {
+      "relPath": "screenshots/android/31-monthly-briefing.png",
+      "bytes": 218975
+    },
+    {
+      "relPath": "screenshots/android/32-ttc-insights.png",
+      "bytes": 180656
+    },
+    {
+      "relPath": "screenshots/android/33-cycle-pattern-12mo-regular.png",
+      "bytes": 138150
+    },
+    {
+      "relPath": "screenshots/android/34-cycle-pattern-12mo-irregular.png",
+      "bytes": 159728
+    },
+    {
+      "relPath": "screenshots/android/40-import-review.png",
+      "bytes": 233703
+    },
+    {
+      "relPath": "screenshots/android/41-import-clue.png",
+      "bytes": 107498
+    },
+    {
+      "relPath": "screenshots/android/42-import-flo.png",
+      "bytes": 114993
+    },
+    {
+      "relPath": "screenshots/android/50-backup-export.png",
+      "bytes": 146840
+    },
+    {
+      "relPath": "screenshots/android/51-backup-restore.png",
+      "bytes": 231522
+    },
+    {
+      "relPath": "screenshots/android/60-privacy-explainer.png",
+      "bytes": 365371
+    },
+    {
+      "relPath": "screenshots/android/61-privacy-lock.png",
+      "bytes": 301493
+    },
+    {
+      "relPath": "screenshots/android/62-lock-screen.png",
+      "bytes": 163822
+    },
+    {
+      "relPath": "screenshots/android/63-data-controls.png",
+      "bytes": 289896
+    },
+    {
+      "relPath": "screenshots/android/64-delete-data.png",
+      "bytes": 186750
+    },
+    {
+      "relPath": "screenshots/android/70-reminders.png",
+      "bytes": 236068
+    },
+    {
+      "relPath": "screenshots/android/71-birth-control.png",
+      "bytes": 224252
+    },
+    {
+      "relPath": "screenshots/android/72-cycle-setup.png",
+      "bytes": 175683
+    },
+    {
+      "relPath": "screenshots/android/73-language.png",
+      "bytes": 193877
+    },
+    {
+      "relPath": "screenshots/android/74-ttc-setup.png",
+      "bytes": 185801
+    },
+    {
+      "relPath": "screenshots/android/80-paywall-retired.png",
+      "bytes": 278541
+    },
+    {
+      "relPath": "screenshots/hero/calendar.png",
+      "bytes": 459488
+    },
+    {
+      "relPath": "screenshots/hero/insights.png",
+      "bytes": 456050
+    },
+    {
+      "relPath": "screenshots/hero/today.png",
+      "bytes": 472979
+    },
+    {
+      "relPath": "screenshots/ios/01-welcome.png",
+      "bytes": 261398
+    },
+    {
+      "relPath": "screenshots/ios/02-start-path.png",
+      "bytes": 189630
+    },
+    {
+      "relPath": "screenshots/ios/03-last-period-start.png",
+      "bytes": 229627
+    },
+    {
+      "relPath": "screenshots/ios/04-cycle-length.png",
+      "bytes": 223659
+    },
+    {
+      "relPath": "screenshots/ios/05-symptom-logging.png",
+      "bytes": 180052
+    },
+    {
+      "relPath": "screenshots/ios/06-notifications.png",
+      "bytes": 312699
+    },
+    {
+      "relPath": "screenshots/ios/07-completion.png",
+      "bytes": 289810
+    },
+    {
+      "relPath": "screenshots/ios/08-today-empty.png",
+      "bytes": 275882
+    },
+    {
+      "relPath": "screenshots/ios/10-today.png",
+      "bytes": 300161
+    },
+    {
+      "relPath": "screenshots/ios/11-calendar.png",
+      "bytes": 298465
+    },
+    {
+      "relPath": "screenshots/ios/12-insights.png",
+      "bytes": 289562
+    },
+    {
+      "relPath": "screenshots/ios/13-settings.png",
+      "bytes": 274542
+    },
+    {
+      "relPath": "screenshots/ios/20-day-detail.png",
+      "bytes": 258876
+    },
+    {
+      "relPath": "screenshots/ios/21-cycle-history.png",
+      "bytes": 146297
+    },
+    {
+      "relPath": "screenshots/ios/22-timeline.png",
+      "bytes": 245447
+    },
+    {
+      "relPath": "screenshots/ios/23-about-estimates.png",
+      "bytes": 175150
+    },
+    {
+      "relPath": "screenshots/ios/30-cycle-pattern.png",
+      "bytes": 168361
+    },
+    {
+      "relPath": "screenshots/ios/31-monthly-briefing.png",
+      "bytes": 228954
+    },
+    {
+      "relPath": "screenshots/ios/32-ttc-insights.png",
+      "bytes": 190467
+    },
+    {
+      "relPath": "screenshots/ios/33-cycle-pattern-12mo-regular.png",
+      "bytes": 145059
+    },
+    {
+      "relPath": "screenshots/ios/34-cycle-pattern-12mo-irregular.png",
+      "bytes": 167336
+    },
+    {
+      "relPath": "screenshots/ios/40-import-review.png",
+      "bytes": 242299
+    },
+    {
+      "relPath": "screenshots/ios/41-import-clue.png",
+      "bytes": 114653
+    },
+    {
+      "relPath": "screenshots/ios/42-import-flo.png",
+      "bytes": 122334
+    },
+    {
+      "relPath": "screenshots/ios/50-backup-export.png",
+      "bytes": 156678
+    },
+    {
+      "relPath": "screenshots/ios/51-backup-restore.png",
+      "bytes": 222230
+    },
+    {
+      "relPath": "screenshots/ios/60-privacy-explainer.png",
+      "bytes": 367432
+    },
+    {
+      "relPath": "screenshots/ios/61-privacy-lock.png",
+      "bytes": 296102
+    },
+    {
+      "relPath": "screenshots/ios/62-lock-screen.png",
+      "bytes": 168134
+    },
+    {
+      "relPath": "screenshots/ios/63-data-controls.png",
+      "bytes": 289257
+    },
+    {
+      "relPath": "screenshots/ios/64-delete-data.png",
+      "bytes": 194136
+    },
+    {
+      "relPath": "screenshots/ios/70-reminders.png",
+      "bytes": 228710
+    },
+    {
+      "relPath": "screenshots/ios/71-birth-control.png",
+      "bytes": 235991
+    },
+    {
+      "relPath": "screenshots/ios/72-cycle-setup.png",
+      "bytes": 185188
+    },
+    {
+      "relPath": "screenshots/ios/73-language.png",
+      "bytes": 206606
+    },
+    {
+      "relPath": "screenshots/ios/74-ttc-setup.png",
+      "bytes": 222547
+    },
+    {
+      "relPath": "screenshots/ios/80-paywall-retired.png",
+      "bytes": 274080
+    }
+  ]
+}

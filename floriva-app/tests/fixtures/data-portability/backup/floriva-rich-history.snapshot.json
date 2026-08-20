@@ -1,0 +1,234 @@
+{
+  "formatVersion": 1,
+  "exportedAt": "2026-04-16T18:30:00.000Z",
+  "appPreferences": {
+    "hasCompletedOnboarding": true,
+    "deferredCycleSetup": false,
+    "deferredTrackingSetup": false,
+    "deferredBiometricsSetup": true,
+    "deferredReminderSetup": false,
+    "deferredImportSetup": false,
+    "dismissedTailoringChecklist": false,
+    "showFertilityEstimates": true,
+    "hapticsEnabled": true,
+    "tapSoundEnabled": false,
+    "themePreference": "system",
+    "localePreference": "system",
+    "dismissedAnomalyIds": []
+  },
+  "billingSnapshot": {
+    "accessState": "needs_purchase",
+    "lastSyncedAt": "2026-04-16T17:00:00.000Z"
+  },
+  "userProfile": {
+    "cycleLengthDays": 31,
+    "periodLengthDays": 6,
+    "lastPeriodStartDate": "2026-04-01",
+    "goals": [
+      "period",
+      "symptoms",
+      "trying-to-conceive"
+    ],
+    "supportsIrregularCycles": true,
+    "conditionTags": [
+      "pcos",
+      "pmdd",
+      "endometriosis"
+    ],
+    "ttcTrackingPreferences": {
+      "sex": true,
+      "ovulationTest": true,
+      "cervicalMucus": true,
+      "basalBodyTemperature": true
+    },
+    "birthControlMethod": "pill"
+  },
+  "reminderPreferences": [
+    {
+      "kind": "daily-log",
+      "enabled": true,
+      "hour": 20,
+      "minute": 0,
+      "schedule": {
+        "cadence": "daily"
+      }
+    },
+    {
+      "kind": "period-start",
+      "enabled": true,
+      "hour": 9,
+      "minute": 0,
+      "schedule": {
+        "cadence": "cycle-event",
+        "daysBefore": 0
+      }
+    },
+    {
+      "kind": "fertile-window",
+      "enabled": true,
+      "hour": 8,
+      "minute": 30,
+      "schedule": {
+        "cadence": "cycle-event",
+        "daysBefore": 1
+      }
+    },
+    {
+      "kind": "birth-control",
+      "enabled": true,
+      "hour": 7,
+      "minute": 45,
+      "schedule": {
+        "cadence": "daily"
+      }
+    }
+  ],
+  "privacyPreference": {
+    "biometricsEnabled": false,
+    "relockAfterSeconds": 300,
+    "destructiveActionConfirmationRequired": true,
+    "diagnosticsConsentEnabled": false
+  },
+  "importSessions": [
+    {
+      "id": "qa-import-clue-apr-2026",
+      "source": "clue",
+      "status": "committed",
+      "startedAt": "2026-04-15T08:00:00.000Z",
+      "completedAt": "2026-04-15T08:03:00.000Z",
+      "importedLogCount": 2,
+      "skippedLogCount": 0
+    }
+  ],
+  "dailyLogs": [
+    {
+      "id": "qa-log-2026-01-08",
+      "logDate": "2026-01-08",
+      "bleeding": "medium",
+      "symptoms": [
+        "cramps",
+        "fatigue"
+      ],
+      "mood": "low",
+      "notes": "Longer winter cycle start."
+    },
+    {
+      "id": "qa-log-2026-01-09",
+      "logDate": "2026-01-09",
+      "bleeding": "light",
+      "symptoms": [
+        "headache"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "qa-log-2026-02-05",
+      "logDate": "2026-02-05",
+      "bleeding": "heavy",
+      "symptoms": [
+        "cramps",
+        "bloating"
+      ],
+      "mood": "sensitive",
+      "notes": "Irregular cycle following travel."
+    },
+    {
+      "id": "qa-log-2026-02-06",
+      "logDate": "2026-02-06",
+      "bleeding": "medium",
+      "symptoms": [
+        "fatigue"
+      ],
+      "birthControlEvent": {
+        "method": "pill",
+        "lateDose": true
+      },
+      "notes": "Late pill after timezone change."
+    },
+    {
+      "id": "qa-log-2026-03-11",
+      "logDate": "2026-03-11",
+      "bleeding": "medium",
+      "symptoms": [
+        "acne",
+        "bloating"
+      ],
+      "mood": "low",
+      "notes": "PMDD symptoms stronger than usual."
+    },
+    {
+      "id": "qa-log-2026-03-12",
+      "logDate": "2026-03-12",
+      "bleeding": "light",
+      "symptoms": [
+        "fatigue",
+        "sleep-changes"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "qa-log-2026-04-01",
+      "logDate": "2026-04-01",
+      "bleeding": "heavy",
+      "symptoms": [
+        "cramps",
+        "breast-tenderness"
+      ],
+      "mood": "low",
+      "notes": "Current cycle start."
+    },
+    {
+      "id": "qa-log-2026-04-02",
+      "logDate": "2026-04-02",
+      "bleeding": "medium",
+      "symptoms": [
+        "fatigue"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "qa-log-2026-04-12",
+      "logDate": "2026-04-12",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge"
+      ],
+      "mood": "energized",
+      "ttcObservation": {
+        "cervicalMucus": "egg-white",
+        "basalBodyTemperatureCelsius": 36.48
+      },
+      "notes": "Likely fertile window opening.",
+      "importSessionId": "qa-import-clue-apr-2026"
+    },
+    {
+      "id": "qa-log-2026-04-13",
+      "logDate": "2026-04-13",
+      "bleeding": "none",
+      "symptoms": [
+        "sex"
+      ],
+      "mood": "steady",
+      "ttcObservation": {
+        "ovulationTest": "positive",
+        "sexLogged": true,
+        "basalBodyTemperatureCelsius": 36.67
+      },
+      "notes": "Positive ovulation test.",
+      "importSessionId": "qa-import-clue-apr-2026"
+    },
+    {
+      "id": "qa-log-2026-04-14",
+      "logDate": "2026-04-14",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue"
+      ],
+      "mood": "energized",
+      "ttcObservation": {
+        "cervicalMucus": "creamy",
+        "basalBodyTemperatureCelsius": 36.71
+      }
+    }
+  ]
+}

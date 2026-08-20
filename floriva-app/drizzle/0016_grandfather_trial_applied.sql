@@ -1,0 +1,1 @@
+ALTER TABLE `billing_snapshot` ADD `grandfather_trial_applied` integer;

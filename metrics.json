@@ -1,0 +1,142 @@
+{
+  "generatedAt": "2026-08-18",
+  "version": "1.4.0",
+  "loc": {
+    "areas": {
+      "src": {
+        "files": 220,
+        "total": 57278,
+        "code": 49613,
+        "comment": 3942,
+        "blank": 3723
+      },
+      "app": {
+        "files": 72,
+        "total": 1059,
+        "code": 841,
+        "comment": 61,
+        "blank": 157
+      },
+      "components": {
+        "files": 4,
+        "total": 27,
+        "code": 17,
+        "comment": 8,
+        "blank": 2
+      },
+      "constants": {
+        "files": 1,
+        "total": 19,
+        "code": 14,
+        "comment": 2,
+        "blank": 3
+      },
+      "tests": {
+        "files": 299,
+        "total": 91240,
+        "code": 72122,
+        "comment": 6708,
+        "blank": 12410
+      },
+      "e2e": {
+        "files": 25,
+        "total": 7497,
+        "code": 5865,
+        "comment": 703,
+        "blank": 929
+      },
+      "scripts": {
+        "files": 13,
+        "total": 3146,
+        "code": 2251,
+        "comment": 535,
+        "blank": 360
+      },
+      "drizzle": {
+        "files": 1,
+        "total": 49,
+        "code": 46,
+        "comment": 1,
+        "blank": 2
+      }
+    },
+    "product": {
+      "files": 297,
+      "total": 58383,
+      "code": 50485
+    },
+    "testCode": 77987,
+    "shipToTestRatio": 1.54
+  },
+  "database": {
+    "migrations": 20,
+    "tables": 15
+  },
+  "localization": {
+    "locales": 8,
+    "localeCodes": [
+      "en",
+      "es",
+      "de",
+      "fr",
+      "ja",
+      "zh-Hans",
+      "pt",
+      "ru"
+    ],
+    "messageModules": 16,
+    "leavesPerLocale": 1107,
+    "keyDrift": 0
+  },
+  "routes": {
+    "routeFiles": 72
+  },
+  "testIds": {
+    "leaves": 324,
+    "builders": 6
+  },
+  "e2e": {
+    "specs": 22,
+    "scenarios": 44
+  },
+  "git": {
+    "commits": 706,
+    "firstCommit": "2026-04-08",
+    "lastCommit": "2026-08-11",
+    "tags": 0,
+    "countedThrough": "2026-08-11"
+  },
+  "dependencies": {
+    "runtime": 47,
+    "dev": 15
+  },
+  "coverage": {
+    "lines": 98.8,
+    "statements": 98.77,
+    "functions": 99.7,
+    "branches": 90.67,
+    "filesMeasured": 243
+  },
+  "testRun": {
+    "suites": 287,
+    "suitesPassed": 287,
+    "tests": 4596,
+    "testsPassed": 4596,
+    "skipped": 0
+  },
+  "methodology": {
+    "locCodeLines": "Code lines exclude blank lines and comment lines. A line with code plus a trailing comment counts as code; block comments count every line they span.",
+    "locFileSet": "Files under each area directory with extensions .ts, .tsx, .js, .jsx, .mjs, .cjs, excluding node_modules and dotfiles.",
+    "coverage": "Read from coverage/coverage-summary.json. filesMeasured is the number of files the suite exercises, NOT the number of product files — jest.config.js excludes route and screen wrappers from collection, so untested files never enter the denominator.",
+    "tests": "Read from a jest --json report. Static grepping undercounts because it.each expands at runtime.",
+    "e2eScenarios": "Static count of it() declarations in e2e/*.e2e.js. These are scenario DECLARATIONS: specs are describe.skip-gated on mutually exclusive preset and platform values, so no single Detox run executes them all. They are not \"passing tests\".",
+    "screens": "Route files are counted directly. Distinct screens require mapping routes to mounted components, since several routes render the same component; that figure is recorded in the docs, not derived here."
+  },
+  "caveats": [
+    "Branch coverage is reported but NOT enforced: jest.config.js coverageThreshold lists only lines, statements and functions.",
+    "Coverage percentages describe the modules the suite exercises. Roughly 45 route and screen wrappers are excluded from collection by jest.config.js; two are real screens with no tests.",
+    "No git tags exist, so release counts cannot be derived from tags.",
+    "Git history is counted through 2026-08-11, the date Floriva was withdrawn from both stores. Later commits build the portfolio snapshot rather than the product. These figures describe the private repository; the published snapshot is a single squashed commit.",
+    "Detox end-to-end scenarios were not executed as part of this measurement."
+  ]
+}

@@ -1,0 +1,2 @@
+  mCurrentFocus=Window{2bce16d u0 app.floriva/app.floriva.MainActivity}
+  mFocusedApp=ActivityRecord{2a2c13e u0 app.floriva/.MainActivity t64}

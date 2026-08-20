@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Detox connects to its host-side server through the emulator's direct host alias. -->
+    <application android:usesCleartextTraffic="true" />
+</manifest>

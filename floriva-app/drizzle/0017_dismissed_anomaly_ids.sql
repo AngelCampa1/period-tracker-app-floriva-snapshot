@@ -1,0 +1,1 @@
+ALTER TABLE `app_preferences` ADD `dismissed_anomaly_ids` text DEFAULT '[]' NOT NULL;

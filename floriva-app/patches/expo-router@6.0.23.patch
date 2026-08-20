@@ -1,0 +1,14 @@
+diff --git a/build/global-state/routing.js b/build/global-state/routing.js
+index 138f67c5266bcc82b4e08d45756ce7e91f674fc8..e92275aa66a9773e708e55661851419f61cbabdd 100644
+--- a/build/global-state/routing.js
++++ b/build/global-state/routing.js
+@@ -167,7 +167,8 @@ function setParams(params = {}) {
+         return;
+     }
+     assertIsReady();
+-    return (router_store_1.store.navigationRef?.current?.setParams)(params);
++    const navigation = router_store_1.store.navigationRef?.current;
++    return navigation?.setParams?.(params);
+ }
+ function linkTo(originalHref, options = {}) {
+     originalHref = typeof originalHref == 'string' ? originalHref : (0, href_1.resolveHref)(originalHref);

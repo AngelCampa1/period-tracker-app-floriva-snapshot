@@ -1,0 +1,21 @@
+{
+  "data": [
+    {
+      "day": "2026-04-12T06:00:00.000Z",
+      "flow": "light",
+      "symptoms": [
+        "cramps"
+      ],
+      "bloating": true,
+      "note": "Imported from Clue fixture."
+    },
+    {
+      "day": "2026-04-13T06:30:00.000Z",
+      "period": "heavy",
+      "emotion": "anxious",
+      "symptoms": [
+        "fatigue"
+      ]
+    }
+  ]
+}

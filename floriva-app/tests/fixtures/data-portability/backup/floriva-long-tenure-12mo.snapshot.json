@@ -1,0 +1,3795 @@
+{
+  "formatVersion": 1,
+  "exportedAt": "2026-04-16T12:00:00.000Z",
+  "appPreferences": {
+    "hasCompletedOnboarding": true,
+    "deferredCycleSetup": false,
+    "deferredTrackingSetup": false,
+    "deferredBiometricsSetup": true,
+    "deferredReminderSetup": false,
+    "deferredImportSetup": false,
+    "dismissedTailoringChecklist": false,
+    "showFertilityEstimates": true,
+    "hapticsEnabled": true,
+    "tapSoundEnabled": false,
+    "themePreference": "system",
+    "localePreference": "system",
+    "dismissedAnomalyIds": []
+  },
+  "billingSnapshot": {
+    "accessState": "needs_purchase",
+    "lastSyncedAt": "2026-04-16T11:00:00.000Z"
+  },
+  "userProfile": {
+    "cycleLengthDays": 28,
+    "periodLengthDays": 5,
+    "goals": [
+      "period",
+      "symptoms",
+      "trying-to-conceive"
+    ],
+    "supportsIrregularCycles": false,
+    "conditionTags": [
+      "pcos",
+      "pmdd",
+      "endometriosis"
+    ],
+    "ttcTrackingPreferences": {
+      "sex": true,
+      "ovulationTest": true,
+      "cervicalMucus": true,
+      "basalBodyTemperature": true
+    },
+    "lastPeriodStartDate": "2026-04-10",
+    "birthControlMethod": "pill"
+  },
+  "reminderPreferences": [
+    {
+      "kind": "daily-log",
+      "enabled": true,
+      "hour": 20,
+      "minute": 0,
+      "schedule": {
+        "cadence": "daily"
+      }
+    },
+    {
+      "kind": "period-start",
+      "enabled": true,
+      "hour": 9,
+      "minute": 0,
+      "schedule": {
+        "cadence": "cycle-event",
+        "daysBefore": 0
+      }
+    },
+    {
+      "kind": "fertile-window",
+      "enabled": true,
+      "hour": 9,
+      "minute": 0,
+      "schedule": {
+        "cadence": "cycle-event",
+        "daysBefore": 1
+      }
+    },
+    {
+      "kind": "birth-control",
+      "enabled": true,
+      "hour": 8,
+      "minute": 0,
+      "schedule": {
+        "cadence": "daily"
+      }
+    }
+  ],
+  "privacyPreference": {
+    "biometricsEnabled": false,
+    "relockAfterSeconds": 300,
+    "destructiveActionConfirmationRequired": true,
+    "diagnosticsConsentEnabled": false
+  },
+  "importSessions": [],
+  "dailyLogs": [
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-05-09",
+      "logDate": "2025-05-09",
+      "bleeding": "heavy",
+      "symptoms": [
+        "cramps"
+      ]
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-05-10",
+      "logDate": "2025-05-10",
+      "bleeding": "heavy",
+      "symptoms": [
+        "bloating",
+        "acne"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-05-11",
+      "logDate": "2025-05-11",
+      "bleeding": "medium",
+      "symptoms": [],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-05-12",
+      "logDate": "2025-05-12",
+      "bleeding": "medium",
+      "symptoms": [
+        "cramps",
+        "acne",
+        "discharge"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-05-13",
+      "logDate": "2025-05-13",
+      "bleeding": "light",
+      "symptoms": [],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-05-14",
+      "logDate": "2025-05-14",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps",
+        "discharge",
+        "bloating",
+        "sex",
+        "breast-tenderness",
+        "acne"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-05-15",
+      "logDate": "2025-05-15",
+      "bleeding": "none",
+      "symptoms": [
+        "headache",
+        "libido-changes",
+        "acne",
+        "sex",
+        "sleep-changes",
+        "bloating"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-05-17",
+      "logDate": "2025-05-17",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue",
+        "headache"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-05-18",
+      "logDate": "2025-05-18",
+      "bleeding": "none",
+      "symptoms": [
+        "breast-tenderness"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-05-19",
+      "logDate": "2025-05-19",
+      "bleeding": "none",
+      "symptoms": [
+        "acne",
+        "sleep-changes",
+        "bloating",
+        "cramps"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-05-20",
+      "logDate": "2025-05-20",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge",
+        "libido-changes"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-05-21",
+      "logDate": "2025-05-21",
+      "bleeding": "none",
+      "symptoms": [
+        "sleep-changes",
+        "cramps",
+        "headache",
+        "breast-tenderness",
+        "discharge",
+        "bloating",
+        "libido-changes"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-05-22",
+      "logDate": "2025-05-22",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "headache",
+        "acne",
+        "breast-tenderness",
+        "cramps",
+        "sleep-changes"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-05-23",
+      "logDate": "2025-05-23",
+      "bleeding": "none",
+      "symptoms": [
+        "sex",
+        "sleep-changes",
+        "acne",
+        "headache"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-05-24",
+      "logDate": "2025-05-24",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps",
+        "sex",
+        "acne"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-05-25",
+      "logDate": "2025-05-25",
+      "bleeding": "none",
+      "symptoms": [
+        "headache"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-05-27",
+      "logDate": "2025-05-27",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue",
+        "libido-changes",
+        "discharge",
+        "cramps",
+        "bloating",
+        "acne",
+        "headache",
+        "sex",
+        "breast-tenderness"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-05-28",
+      "logDate": "2025-05-28",
+      "bleeding": "none",
+      "symptoms": [
+        "breast-tenderness",
+        "fatigue"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-05-29",
+      "logDate": "2025-05-29",
+      "bleeding": "none",
+      "symptoms": [
+        "acne",
+        "headache",
+        "fatigue",
+        "discharge"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-05-30",
+      "logDate": "2025-05-30",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge",
+        "libido-changes",
+        "bloating",
+        "acne",
+        "breast-tenderness",
+        "headache",
+        "sex",
+        "fatigue"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-05-31",
+      "logDate": "2025-05-31",
+      "bleeding": "none",
+      "symptoms": [
+        "sleep-changes",
+        "discharge",
+        "bloating",
+        "acne",
+        "libido-changes"
+      ],
+      "mood": "low",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 17 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-01",
+      "logDate": "2025-06-01",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "headache",
+        "acne",
+        "fatigue"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-03",
+      "logDate": "2025-06-03",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps",
+        "bloating",
+        "acne",
+        "breast-tenderness",
+        "sleep-changes"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-04",
+      "logDate": "2025-06-04",
+      "bleeding": "none",
+      "symptoms": [
+        "headache",
+        "sleep-changes",
+        "cramps",
+        "breast-tenderness",
+        "acne",
+        "fatigue",
+        "bloating"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-05",
+      "logDate": "2025-06-05",
+      "bleeding": "none",
+      "symptoms": [
+        "bloating",
+        "headache",
+        "acne",
+        "fatigue",
+        "discharge",
+        "libido-changes"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-06",
+      "logDate": "2025-06-06",
+      "bleeding": "heavy",
+      "symptoms": [
+        "libido-changes"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-07",
+      "logDate": "2025-06-07",
+      "bleeding": "heavy",
+      "symptoms": [
+        "breast-tenderness",
+        "sex",
+        "headache"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-08",
+      "logDate": "2025-06-08",
+      "bleeding": "medium",
+      "symptoms": []
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-09",
+      "logDate": "2025-06-09",
+      "bleeding": "medium",
+      "symptoms": [
+        "sleep-changes"
+      ],
+      "mood": "energized",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 3 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-10",
+      "logDate": "2025-06-10",
+      "bleeding": "light",
+      "symptoms": [
+        "fatigue",
+        "sex",
+        "acne"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-11",
+      "logDate": "2025-06-11",
+      "bleeding": "none",
+      "symptoms": [
+        "headache",
+        "cramps",
+        "libido-changes",
+        "discharge",
+        "sleep-changes",
+        "bloating",
+        "breast-tenderness",
+        "fatigue",
+        "acne"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-12",
+      "logDate": "2025-06-12",
+      "bleeding": "none",
+      "symptoms": [
+        "bloating",
+        "sleep-changes",
+        "libido-changes",
+        "fatigue",
+        "cramps"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-13",
+      "logDate": "2025-06-13",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue",
+        "libido-changes",
+        "breast-tenderness",
+        "discharge",
+        "sleep-changes",
+        "acne"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-14",
+      "logDate": "2025-06-14",
+      "bleeding": "none",
+      "symptoms": [
+        "breast-tenderness",
+        "fatigue",
+        "acne",
+        "sleep-changes",
+        "headache",
+        "bloating",
+        "discharge",
+        "libido-changes"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-16",
+      "logDate": "2025-06-16",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge",
+        "libido-changes",
+        "cramps"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-18",
+      "logDate": "2025-06-18",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "breast-tenderness",
+        "fatigue"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-19",
+      "logDate": "2025-06-19",
+      "bleeding": "none",
+      "symptoms": [
+        "sex",
+        "cramps",
+        "breast-tenderness",
+        "libido-changes",
+        "fatigue",
+        "bloating"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-20",
+      "logDate": "2025-06-20",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-21",
+      "logDate": "2025-06-21",
+      "bleeding": "none",
+      "symptoms": [
+        "headache",
+        "discharge",
+        "sex",
+        "sleep-changes",
+        "breast-tenderness",
+        "cramps",
+        "bloating",
+        "acne",
+        "libido-changes"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-22",
+      "logDate": "2025-06-22",
+      "bleeding": "none",
+      "symptoms": [
+        "bloating",
+        "acne"
+      ],
+      "mood": "steady",
+      "birthControlEvent": {
+        "method": "pill",
+        "lateDose": true
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-23",
+      "logDate": "2025-06-23",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue",
+        "breast-tenderness",
+        "cramps",
+        "acne"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-24",
+      "logDate": "2025-06-24",
+      "bleeding": "none",
+      "symptoms": [
+        "breast-tenderness",
+        "sleep-changes",
+        "acne"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-25",
+      "logDate": "2025-06-25",
+      "bleeding": "none",
+      "symptoms": [
+        "acne",
+        "headache",
+        "discharge",
+        "libido-changes",
+        "breast-tenderness"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-26",
+      "logDate": "2025-06-26",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-27",
+      "logDate": "2025-06-27",
+      "bleeding": "none",
+      "symptoms": [
+        "sleep-changes",
+        "headache",
+        "breast-tenderness",
+        "sex",
+        "discharge",
+        "bloating"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-28",
+      "logDate": "2025-06-28",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "bloating",
+        "acne",
+        "sex",
+        "cramps"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-29",
+      "logDate": "2025-06-29",
+      "bleeding": "none",
+      "symptoms": [
+        "sex",
+        "headache",
+        "libido-changes",
+        "acne",
+        "discharge",
+        "bloating",
+        "breast-tenderness"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-06-30",
+      "logDate": "2025-06-30",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps",
+        "fatigue",
+        "sex",
+        "discharge",
+        "bloating",
+        "libido-changes",
+        "sleep-changes",
+        "acne"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-01",
+      "logDate": "2025-07-01",
+      "bleeding": "none",
+      "symptoms": [
+        "headache"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-02",
+      "logDate": "2025-07-02",
+      "bleeding": "none",
+      "symptoms": [
+        "bloating",
+        "discharge",
+        "sex",
+        "libido-changes",
+        "breast-tenderness",
+        "headache",
+        "acne",
+        "cramps"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-03",
+      "logDate": "2025-07-03",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue",
+        "acne",
+        "cramps",
+        "discharge",
+        "sex",
+        "libido-changes"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-04",
+      "logDate": "2025-07-04",
+      "bleeding": "heavy",
+      "symptoms": [],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-05",
+      "logDate": "2025-07-05",
+      "bleeding": "heavy",
+      "symptoms": [],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-06",
+      "logDate": "2025-07-06",
+      "bleeding": "medium",
+      "symptoms": [
+        "breast-tenderness",
+        "bloating"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-07",
+      "logDate": "2025-07-07",
+      "bleeding": "medium",
+      "symptoms": [
+        "bloating",
+        "breast-tenderness",
+        "discharge"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-08",
+      "logDate": "2025-07-08",
+      "bleeding": "light",
+      "symptoms": [
+        "headache",
+        "breast-tenderness",
+        "sex"
+      ]
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-09",
+      "logDate": "2025-07-09",
+      "bleeding": "none",
+      "symptoms": [
+        "bloating",
+        "cramps",
+        "discharge"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-11",
+      "logDate": "2025-07-11",
+      "bleeding": "none",
+      "symptoms": [
+        "breast-tenderness",
+        "headache",
+        "bloating",
+        "sex",
+        "sleep-changes",
+        "acne",
+        "fatigue",
+        "libido-changes",
+        "discharge",
+        "cramps"
+      ],
+      "mood": "steady",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 2 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-12",
+      "logDate": "2025-07-12",
+      "bleeding": "none",
+      "symptoms": [
+        "acne",
+        "sleep-changes",
+        "headache"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-13",
+      "logDate": "2025-07-13",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge",
+        "sex"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-14",
+      "logDate": "2025-07-14",
+      "bleeding": "none",
+      "symptoms": [
+        "sleep-changes",
+        "discharge",
+        "bloating",
+        "fatigue",
+        "libido-changes"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-15",
+      "logDate": "2025-07-15",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "sleep-changes",
+        "headache",
+        "cramps",
+        "bloating",
+        "discharge",
+        "fatigue"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-16",
+      "logDate": "2025-07-16",
+      "bleeding": "none",
+      "symptoms": [
+        "sex",
+        "sleep-changes",
+        "fatigue",
+        "libido-changes",
+        "cramps",
+        "breast-tenderness",
+        "headache",
+        "discharge"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-17",
+      "logDate": "2025-07-17",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps",
+        "bloating",
+        "headache"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-18",
+      "logDate": "2025-07-18",
+      "bleeding": "none",
+      "symptoms": [
+        "headache",
+        "bloating",
+        "acne"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-19",
+      "logDate": "2025-07-19",
+      "bleeding": "none",
+      "symptoms": [
+        "bloating",
+        "fatigue",
+        "sex",
+        "cramps",
+        "acne",
+        "headache",
+        "libido-changes",
+        "sleep-changes",
+        "breast-tenderness"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-20",
+      "logDate": "2025-07-20",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue",
+        "sleep-changes",
+        "breast-tenderness",
+        "acne"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-21",
+      "logDate": "2025-07-21",
+      "bleeding": "none",
+      "symptoms": [
+        "breast-tenderness",
+        "sleep-changes",
+        "bloating",
+        "headache",
+        "fatigue",
+        "cramps"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-23",
+      "logDate": "2025-07-23",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge",
+        "libido-changes",
+        "cramps",
+        "sleep-changes",
+        "bloating"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-24",
+      "logDate": "2025-07-24",
+      "bleeding": "none",
+      "symptoms": [
+        "sleep-changes",
+        "sex",
+        "libido-changes",
+        "discharge",
+        "headache"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-25",
+      "logDate": "2025-07-25",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "fatigue",
+        "cramps"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-26",
+      "logDate": "2025-07-26",
+      "bleeding": "none",
+      "symptoms": [
+        "sex",
+        "sleep-changes"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-28",
+      "logDate": "2025-07-28",
+      "bleeding": "none",
+      "symptoms": [
+        "headache"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-29",
+      "logDate": "2025-07-29",
+      "bleeding": "none",
+      "symptoms": [
+        "bloating",
+        "fatigue",
+        "acne",
+        "sex",
+        "sleep-changes",
+        "discharge",
+        "headache",
+        "breast-tenderness"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-07-30",
+      "logDate": "2025-07-30",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue",
+        "breast-tenderness",
+        "acne",
+        "libido-changes",
+        "cramps",
+        "discharge",
+        "bloating",
+        "sex"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-01",
+      "logDate": "2025-08-01",
+      "bleeding": "heavy",
+      "symptoms": [
+        "libido-changes",
+        "bloating"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-02",
+      "logDate": "2025-08-02",
+      "bleeding": "heavy",
+      "symptoms": [
+        "sleep-changes",
+        "acne"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-03",
+      "logDate": "2025-08-03",
+      "bleeding": "medium",
+      "symptoms": [
+        "discharge"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-04",
+      "logDate": "2025-08-04",
+      "bleeding": "medium",
+      "symptoms": [],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-07",
+      "logDate": "2025-08-07",
+      "bleeding": "none",
+      "symptoms": [
+        "breast-tenderness",
+        "bloating",
+        "sex",
+        "acne",
+        "sleep-changes",
+        "headache",
+        "cramps"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-08",
+      "logDate": "2025-08-08",
+      "bleeding": "none",
+      "symptoms": [
+        "acne",
+        "headache",
+        "libido-changes"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-09",
+      "logDate": "2025-08-09",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge",
+        "breast-tenderness",
+        "acne",
+        "libido-changes",
+        "bloating",
+        "cramps"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-10",
+      "logDate": "2025-08-10",
+      "bleeding": "none",
+      "symptoms": [
+        "sleep-changes",
+        "sex",
+        "discharge",
+        "libido-changes",
+        "fatigue"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-11",
+      "logDate": "2025-08-11",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "cramps",
+        "fatigue"
+      ],
+      "mood": "steady",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 5 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-14",
+      "logDate": "2025-08-14",
+      "bleeding": "none",
+      "symptoms": [
+        "headache",
+        "libido-changes",
+        "sex",
+        "fatigue"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-15",
+      "logDate": "2025-08-15",
+      "bleeding": "none",
+      "symptoms": [
+        "bloating"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-16",
+      "logDate": "2025-08-16",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue",
+        "bloating",
+        "discharge"
+      ],
+      "mood": "low",
+      "birthControlEvent": {
+        "method": "pill",
+        "lateDose": true
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-17",
+      "logDate": "2025-08-17",
+      "bleeding": "none",
+      "symptoms": [
+        "breast-tenderness",
+        "cramps",
+        "fatigue"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-18",
+      "logDate": "2025-08-18",
+      "bleeding": "none",
+      "symptoms": [
+        "acne"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-19",
+      "logDate": "2025-08-19",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge",
+        "fatigue",
+        "breast-tenderness",
+        "sleep-changes",
+        "libido-changes",
+        "sex",
+        "acne",
+        "cramps"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-20",
+      "logDate": "2025-08-20",
+      "bleeding": "none",
+      "symptoms": [
+        "sleep-changes",
+        "discharge",
+        "fatigue",
+        "libido-changes",
+        "sex",
+        "acne",
+        "cramps"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-21",
+      "logDate": "2025-08-21",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "acne"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-22",
+      "logDate": "2025-08-22",
+      "bleeding": "none",
+      "symptoms": [
+        "sex",
+        "headache"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-23",
+      "logDate": "2025-08-23",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps",
+        "libido-changes",
+        "headache",
+        "sex",
+        "acne",
+        "discharge"
+      ],
+      "mood": "steady",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 17 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-24",
+      "logDate": "2025-08-24",
+      "bleeding": "none",
+      "symptoms": [
+        "headache",
+        "breast-tenderness",
+        "acne",
+        "cramps",
+        "discharge"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-25",
+      "logDate": "2025-08-25",
+      "bleeding": "none",
+      "symptoms": [
+        "bloating",
+        "fatigue",
+        "cramps",
+        "sleep-changes",
+        "breast-tenderness",
+        "libido-changes",
+        "discharge",
+        "headache"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-26",
+      "logDate": "2025-08-26",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue",
+        "headache",
+        "acne",
+        "discharge",
+        "sex",
+        "libido-changes",
+        "sleep-changes",
+        "bloating"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-27",
+      "logDate": "2025-08-27",
+      "bleeding": "none",
+      "symptoms": [
+        "breast-tenderness",
+        "headache",
+        "cramps",
+        "bloating",
+        "sleep-changes",
+        "acne"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-28",
+      "logDate": "2025-08-28",
+      "bleeding": "none",
+      "symptoms": [
+        "acne",
+        "headache",
+        "sex"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-29",
+      "logDate": "2025-08-29",
+      "bleeding": "heavy",
+      "symptoms": [],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-08-31",
+      "logDate": "2025-08-31",
+      "bleeding": "medium",
+      "symptoms": [
+        "sleep-changes",
+        "cramps",
+        "breast-tenderness"
+      ],
+      "mood": "low",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 2 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-01",
+      "logDate": "2025-09-01",
+      "bleeding": "medium",
+      "symptoms": [
+        "bloating",
+        "breast-tenderness"
+      ]
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-02",
+      "logDate": "2025-09-02",
+      "bleeding": "light",
+      "symptoms": [
+        "acne",
+        "bloating"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-04",
+      "logDate": "2025-09-04",
+      "bleeding": "none",
+      "symptoms": [
+        "acne",
+        "fatigue"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-06",
+      "logDate": "2025-09-06",
+      "bleeding": "none",
+      "symptoms": [
+        "sleep-changes",
+        "breast-tenderness",
+        "discharge",
+        "bloating",
+        "sex"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-07",
+      "logDate": "2025-09-07",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "headache",
+        "cramps",
+        "bloating"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-08",
+      "logDate": "2025-09-08",
+      "bleeding": "none",
+      "symptoms": [
+        "sex",
+        "cramps",
+        "headache",
+        "bloating",
+        "acne",
+        "discharge",
+        "fatigue",
+        "sleep-changes",
+        "libido-changes"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-09",
+      "logDate": "2025-09-09",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps",
+        "discharge",
+        "sex",
+        "bloating"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-10",
+      "logDate": "2025-09-10",
+      "bleeding": "none",
+      "symptoms": [
+        "headache",
+        "fatigue",
+        "libido-changes"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-11",
+      "logDate": "2025-09-11",
+      "bleeding": "none",
+      "symptoms": [
+        "bloating",
+        "cramps",
+        "acne"
+      ],
+      "mood": "steady",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 8 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-12",
+      "logDate": "2025-09-12",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-14",
+      "logDate": "2025-09-14",
+      "bleeding": "none",
+      "symptoms": [
+        "acne",
+        "sex",
+        "headache",
+        "sleep-changes"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-15",
+      "logDate": "2025-09-15",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-16",
+      "logDate": "2025-09-16",
+      "bleeding": "none",
+      "symptoms": [
+        "sleep-changes",
+        "headache",
+        "fatigue",
+        "acne"
+      ],
+      "mood": "low",
+      "birthControlEvent": {
+        "method": "pill",
+        "lateDose": true
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-17",
+      "logDate": "2025-09-17",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-18",
+      "logDate": "2025-09-18",
+      "bleeding": "none",
+      "symptoms": [
+        "sex"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-19",
+      "logDate": "2025-09-19",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps",
+        "sex",
+        "libido-changes",
+        "headache",
+        "sleep-changes",
+        "fatigue",
+        "discharge"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-20",
+      "logDate": "2025-09-20",
+      "bleeding": "none",
+      "symptoms": [
+        "headache",
+        "discharge",
+        "acne",
+        "sex",
+        "breast-tenderness"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-22",
+      "logDate": "2025-09-22",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue",
+        "sex"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-23",
+      "logDate": "2025-09-23",
+      "bleeding": "none",
+      "symptoms": [
+        "breast-tenderness",
+        "sex"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-24",
+      "logDate": "2025-09-24",
+      "bleeding": "none",
+      "symptoms": [
+        "acne",
+        "libido-changes",
+        "bloating",
+        "sex",
+        "cramps",
+        "breast-tenderness",
+        "fatigue",
+        "discharge",
+        "headache"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-25",
+      "logDate": "2025-09-25",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge",
+        "fatigue",
+        "bloating",
+        "acne",
+        "libido-changes",
+        "headache",
+        "cramps",
+        "breast-tenderness",
+        "sleep-changes"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-26",
+      "logDate": "2025-09-26",
+      "bleeding": "heavy",
+      "symptoms": [
+        "cramps",
+        "sleep-changes"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-27",
+      "logDate": "2025-09-27",
+      "bleeding": "heavy",
+      "symptoms": [
+        "headache",
+        "bloating",
+        "breast-tenderness"
+      ],
+      "mood": "sensitive",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 1 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-28",
+      "logDate": "2025-09-28",
+      "bleeding": "medium",
+      "symptoms": [],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-29",
+      "logDate": "2025-09-29",
+      "bleeding": "medium",
+      "symptoms": [
+        "discharge",
+        "headache"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-09-30",
+      "logDate": "2025-09-30",
+      "bleeding": "light",
+      "symptoms": [
+        "acne"
+      ]
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-01",
+      "logDate": "2025-10-01",
+      "bleeding": "none",
+      "symptoms": [
+        "acne",
+        "cramps",
+        "fatigue",
+        "sex",
+        "discharge",
+        "bloating",
+        "sleep-changes",
+        "libido-changes"
+      ],
+      "mood": "low",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 0 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-02",
+      "logDate": "2025-10-02",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge",
+        "acne",
+        "headache",
+        "sex",
+        "breast-tenderness"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-03",
+      "logDate": "2025-10-03",
+      "bleeding": "none",
+      "symptoms": [
+        "sleep-changes",
+        "discharge",
+        "breast-tenderness",
+        "headache",
+        "cramps",
+        "libido-changes",
+        "bloating"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-04",
+      "logDate": "2025-10-04",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "breast-tenderness",
+        "bloating"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-05",
+      "logDate": "2025-10-05",
+      "bleeding": "none",
+      "symptoms": [
+        "sex",
+        "libido-changes",
+        "discharge",
+        "sleep-changes",
+        "cramps",
+        "acne"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-06",
+      "logDate": "2025-10-06",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-07",
+      "logDate": "2025-10-07",
+      "bleeding": "none",
+      "symptoms": [
+        "headache",
+        "fatigue"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-08",
+      "logDate": "2025-10-08",
+      "bleeding": "none",
+      "symptoms": [
+        "bloating",
+        "headache",
+        "sex",
+        "libido-changes",
+        "breast-tenderness"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-10",
+      "logDate": "2025-10-10",
+      "bleeding": "none",
+      "symptoms": [
+        "breast-tenderness",
+        "sex",
+        "fatigue",
+        "acne",
+        "discharge",
+        "bloating",
+        "headache",
+        "sleep-changes"
+      ],
+      "mood": "sensitive",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 9 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-11",
+      "logDate": "2025-10-11",
+      "bleeding": "none",
+      "symptoms": [
+        "acne",
+        "cramps",
+        "headache",
+        "sleep-changes"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-12",
+      "logDate": "2025-10-12",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge",
+        "fatigue",
+        "bloating",
+        "breast-tenderness"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-13",
+      "logDate": "2025-10-13",
+      "bleeding": "none",
+      "symptoms": [
+        "sleep-changes",
+        "cramps",
+        "bloating",
+        "libido-changes",
+        "breast-tenderness",
+        "headache"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-14",
+      "logDate": "2025-10-14",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "cramps",
+        "headache"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-16",
+      "logDate": "2025-10-16",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps",
+        "sex",
+        "headache",
+        "sleep-changes",
+        "libido-changes",
+        "acne",
+        "breast-tenderness",
+        "fatigue",
+        "bloating"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-18",
+      "logDate": "2025-10-18",
+      "bleeding": "none",
+      "symptoms": [
+        "bloating",
+        "discharge",
+        "sleep-changes",
+        "libido-changes",
+        "cramps",
+        "breast-tenderness",
+        "headache"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-19",
+      "logDate": "2025-10-19",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue",
+        "bloating",
+        "sleep-changes",
+        "cramps",
+        "sex",
+        "breast-tenderness",
+        "libido-changes",
+        "headache"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-21",
+      "logDate": "2025-10-21",
+      "bleeding": "none",
+      "symptoms": [
+        "acne",
+        "cramps"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-22",
+      "logDate": "2025-10-22",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge",
+        "headache",
+        "fatigue",
+        "sex",
+        "cramps",
+        "sleep-changes"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-23",
+      "logDate": "2025-10-23",
+      "bleeding": "none",
+      "symptoms": [
+        "sleep-changes"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-24",
+      "logDate": "2025-10-24",
+      "bleeding": "heavy",
+      "symptoms": [
+        "breast-tenderness",
+        "discharge",
+        "cramps"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-25",
+      "logDate": "2025-10-25",
+      "bleeding": "heavy",
+      "symptoms": [
+        "cramps"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-26",
+      "logDate": "2025-10-26",
+      "bleeding": "medium",
+      "symptoms": [
+        "fatigue",
+        "bloating",
+        "sex"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-27",
+      "logDate": "2025-10-27",
+      "bleeding": "medium",
+      "symptoms": [
+        "acne"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-28",
+      "logDate": "2025-10-28",
+      "bleeding": "light",
+      "symptoms": [
+        "cramps",
+        "libido-changes"
+      ],
+      "mood": "steady",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 4 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-29",
+      "logDate": "2025-10-29",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge",
+        "cramps",
+        "breast-tenderness",
+        "sex",
+        "libido-changes"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-10-31",
+      "logDate": "2025-10-31",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "cramps",
+        "sleep-changes",
+        "breast-tenderness",
+        "discharge",
+        "sex"
+      ],
+      "mood": "steady",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 2 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-01",
+      "logDate": "2025-11-01",
+      "bleeding": "none",
+      "symptoms": [
+        "sex",
+        "headache",
+        "bloating"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-02",
+      "logDate": "2025-11-02",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps",
+        "bloating",
+        "libido-changes"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-03",
+      "logDate": "2025-11-03",
+      "bleeding": "none",
+      "symptoms": [
+        "headache",
+        "acne",
+        "libido-changes",
+        "cramps",
+        "breast-tenderness"
+      ],
+      "mood": "energized",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 5 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-04",
+      "logDate": "2025-11-04",
+      "bleeding": "none",
+      "symptoms": [
+        "bloating",
+        "libido-changes",
+        "headache",
+        "sleep-changes",
+        "fatigue",
+        "cramps",
+        "sex",
+        "discharge",
+        "acne"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-05",
+      "logDate": "2025-11-05",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue",
+        "cramps",
+        "sleep-changes",
+        "discharge",
+        "headache",
+        "sex",
+        "acne",
+        "libido-changes"
+      ],
+      "mood": "low",
+      "birthControlEvent": {
+        "method": "pill",
+        "lateDose": true
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-06",
+      "logDate": "2025-11-06",
+      "bleeding": "none",
+      "symptoms": [
+        "breast-tenderness",
+        "discharge",
+        "sex",
+        "fatigue",
+        "cramps",
+        "sleep-changes",
+        "libido-changes"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-07",
+      "logDate": "2025-11-07",
+      "bleeding": "none",
+      "symptoms": [
+        "acne",
+        "sleep-changes",
+        "fatigue",
+        "bloating",
+        "sex",
+        "breast-tenderness"
+      ],
+      "mood": "energized",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 9 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-10",
+      "logDate": "2025-11-10",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "sex",
+        "bloating",
+        "acne",
+        "fatigue",
+        "breast-tenderness",
+        "sleep-changes"
+      ],
+      "mood": "sensitive",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 12 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-11",
+      "logDate": "2025-11-11",
+      "bleeding": "none",
+      "symptoms": [
+        "sex",
+        "discharge",
+        "bloating",
+        "acne",
+        "cramps",
+        "headache"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-12",
+      "logDate": "2025-11-12",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps",
+        "bloating",
+        "libido-changes",
+        "fatigue",
+        "sex",
+        "acne"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-13",
+      "logDate": "2025-11-13",
+      "bleeding": "none",
+      "symptoms": [
+        "headache",
+        "cramps",
+        "sex",
+        "discharge",
+        "breast-tenderness",
+        "fatigue",
+        "bloating"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-14",
+      "logDate": "2025-11-14",
+      "bleeding": "none",
+      "symptoms": [
+        "bloating",
+        "breast-tenderness"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-15",
+      "logDate": "2025-11-15",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue",
+        "headache",
+        "breast-tenderness"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-16",
+      "logDate": "2025-11-16",
+      "bleeding": "none",
+      "symptoms": [
+        "breast-tenderness",
+        "bloating",
+        "cramps",
+        "headache"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-17",
+      "logDate": "2025-11-17",
+      "bleeding": "none",
+      "symptoms": [
+        "acne",
+        "fatigue",
+        "sleep-changes"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-18",
+      "logDate": "2025-11-18",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge",
+        "sleep-changes",
+        "libido-changes",
+        "fatigue",
+        "bloating",
+        "breast-tenderness"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-19",
+      "logDate": "2025-11-19",
+      "bleeding": "none",
+      "symptoms": [
+        "sleep-changes",
+        "sex",
+        "fatigue",
+        "headache",
+        "libido-changes",
+        "breast-tenderness",
+        "bloating"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-21",
+      "logDate": "2025-11-21",
+      "bleeding": "heavy",
+      "symptoms": [],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-22",
+      "logDate": "2025-11-22",
+      "bleeding": "heavy",
+      "symptoms": [
+        "discharge"
+      ],
+      "mood": "low",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 1 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-23",
+      "logDate": "2025-11-23",
+      "bleeding": "medium",
+      "symptoms": [
+        "acne"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-24",
+      "logDate": "2025-11-24",
+      "bleeding": "medium",
+      "symptoms": [
+        "discharge"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-25",
+      "logDate": "2025-11-25",
+      "bleeding": "light",
+      "symptoms": [],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-26",
+      "logDate": "2025-11-26",
+      "bleeding": "none",
+      "symptoms": [
+        "sleep-changes",
+        "breast-tenderness",
+        "acne",
+        "cramps",
+        "discharge",
+        "fatigue"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-27",
+      "logDate": "2025-11-27",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "bloating"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-28",
+      "logDate": "2025-11-28",
+      "bleeding": "none",
+      "symptoms": [
+        "sex",
+        "acne"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-29",
+      "logDate": "2025-11-29",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps",
+        "bloating"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-11-30",
+      "logDate": "2025-11-30",
+      "bleeding": "none",
+      "symptoms": [
+        "headache",
+        "sleep-changes",
+        "cramps",
+        "sex",
+        "bloating",
+        "acne",
+        "breast-tenderness",
+        "discharge"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-01",
+      "logDate": "2025-12-01",
+      "bleeding": "none",
+      "symptoms": [
+        "bloating",
+        "libido-changes",
+        "sex",
+        "discharge",
+        "cramps"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-02",
+      "logDate": "2025-12-02",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue",
+        "headache",
+        "discharge",
+        "libido-changes"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-03",
+      "logDate": "2025-12-03",
+      "bleeding": "none",
+      "symptoms": [
+        "breast-tenderness",
+        "acne",
+        "headache",
+        "libido-changes",
+        "bloating",
+        "cramps",
+        "fatigue"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-05",
+      "logDate": "2025-12-05",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge",
+        "libido-changes",
+        "fatigue",
+        "sex",
+        "acne",
+        "headache",
+        "breast-tenderness",
+        "bloating"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-06",
+      "logDate": "2025-12-06",
+      "bleeding": "none",
+      "symptoms": [
+        "sleep-changes",
+        "acne",
+        "discharge",
+        "fatigue",
+        "bloating",
+        "headache",
+        "breast-tenderness",
+        "sex"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-07",
+      "logDate": "2025-12-07",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "cramps",
+        "sex"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-09",
+      "logDate": "2025-12-09",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps",
+        "breast-tenderness",
+        "acne",
+        "sex",
+        "headache",
+        "sleep-changes",
+        "discharge",
+        "libido-changes",
+        "bloating"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-10",
+      "logDate": "2025-12-10",
+      "bleeding": "none",
+      "symptoms": [
+        "headache",
+        "sleep-changes",
+        "bloating",
+        "acne",
+        "fatigue",
+        "cramps",
+        "breast-tenderness",
+        "discharge",
+        "sex"
+      ],
+      "mood": "low",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 14 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-11",
+      "logDate": "2025-12-11",
+      "bleeding": "none",
+      "symptoms": [
+        "bloating"
+      ],
+      "mood": "sensitive",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 15 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-12",
+      "logDate": "2025-12-12",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue",
+        "discharge",
+        "sleep-changes",
+        "breast-tenderness",
+        "bloating",
+        "headache",
+        "acne"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-13",
+      "logDate": "2025-12-13",
+      "bleeding": "none",
+      "symptoms": [
+        "breast-tenderness",
+        "sex",
+        "discharge"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-14",
+      "logDate": "2025-12-14",
+      "bleeding": "none",
+      "symptoms": [
+        "acne",
+        "sleep-changes",
+        "bloating",
+        "sex",
+        "fatigue",
+        "discharge",
+        "headache",
+        "cramps",
+        "libido-changes"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-15",
+      "logDate": "2025-12-15",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge",
+        "fatigue",
+        "libido-changes"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-16",
+      "logDate": "2025-12-16",
+      "bleeding": "none",
+      "symptoms": [
+        "sleep-changes",
+        "sex",
+        "libido-changes",
+        "acne",
+        "cramps",
+        "bloating",
+        "fatigue",
+        "headache",
+        "breast-tenderness"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-17",
+      "logDate": "2025-12-17",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "breast-tenderness",
+        "fatigue",
+        "discharge",
+        "sex",
+        "acne"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-19",
+      "logDate": "2025-12-19",
+      "bleeding": "heavy",
+      "symptoms": [
+        "cramps",
+        "discharge",
+        "bloating"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-20",
+      "logDate": "2025-12-20",
+      "bleeding": "heavy",
+      "symptoms": [
+        "headache",
+        "sex"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-21",
+      "logDate": "2025-12-21",
+      "bleeding": "medium",
+      "symptoms": []
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-22",
+      "logDate": "2025-12-22",
+      "bleeding": "medium",
+      "symptoms": [
+        "breast-tenderness"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-23",
+      "logDate": "2025-12-23",
+      "bleeding": "light",
+      "symptoms": [
+        "bloating"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-24",
+      "logDate": "2025-12-24",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "sex",
+        "acne",
+        "breast-tenderness",
+        "bloating",
+        "cramps"
+      ],
+      "mood": "steady",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 0 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-25",
+      "logDate": "2025-12-25",
+      "bleeding": "none",
+      "symptoms": [
+        "sex",
+        "headache",
+        "breast-tenderness",
+        "acne",
+        "sleep-changes",
+        "cramps",
+        "libido-changes",
+        "bloating",
+        "fatigue"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-26",
+      "logDate": "2025-12-26",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps",
+        "sleep-changes",
+        "discharge",
+        "breast-tenderness",
+        "sex",
+        "bloating"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-27",
+      "logDate": "2025-12-27",
+      "bleeding": "none",
+      "symptoms": [
+        "headache"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-29",
+      "logDate": "2025-12-29",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue",
+        "sex",
+        "acne",
+        "headache",
+        "libido-changes"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-30",
+      "logDate": "2025-12-30",
+      "bleeding": "none",
+      "symptoms": [
+        "breast-tenderness",
+        "sex",
+        "bloating"
+      ],
+      "mood": "sensitive",
+      "birthControlEvent": {
+        "method": "pill",
+        "lateDose": true
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2025-12-31",
+      "logDate": "2025-12-31",
+      "bleeding": "none",
+      "symptoms": [
+        "acne"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-01",
+      "logDate": "2026-01-01",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge",
+        "sleep-changes",
+        "headache",
+        "sex",
+        "breast-tenderness",
+        "bloating",
+        "cramps",
+        "fatigue",
+        "libido-changes"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-02",
+      "logDate": "2026-01-02",
+      "bleeding": "none",
+      "symptoms": [
+        "sleep-changes",
+        "fatigue",
+        "sex",
+        "bloating",
+        "cramps",
+        "discharge",
+        "acne",
+        "libido-changes"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-03",
+      "logDate": "2026-01-03",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "fatigue",
+        "breast-tenderness"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-04",
+      "logDate": "2026-01-04",
+      "bleeding": "none",
+      "symptoms": [
+        "sex",
+        "acne",
+        "libido-changes",
+        "fatigue",
+        "cramps",
+        "discharge",
+        "sleep-changes"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-05",
+      "logDate": "2026-01-05",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps",
+        "acne",
+        "headache",
+        "sleep-changes",
+        "breast-tenderness"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-06",
+      "logDate": "2026-01-06",
+      "bleeding": "none",
+      "symptoms": [
+        "headache",
+        "discharge",
+        "cramps",
+        "sex",
+        "acne"
+      ],
+      "mood": "low",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 13 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-07",
+      "logDate": "2026-01-07",
+      "bleeding": "none",
+      "symptoms": [
+        "bloating",
+        "fatigue",
+        "cramps",
+        "sex"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-08",
+      "logDate": "2026-01-08",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue",
+        "breast-tenderness",
+        "sleep-changes"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-09",
+      "logDate": "2026-01-09",
+      "bleeding": "none",
+      "symptoms": [
+        "breast-tenderness",
+        "sleep-changes",
+        "cramps",
+        "discharge",
+        "headache",
+        "fatigue"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-10",
+      "logDate": "2026-01-10",
+      "bleeding": "none",
+      "symptoms": [
+        "acne",
+        "sex",
+        "breast-tenderness",
+        "bloating",
+        "headache",
+        "sleep-changes"
+      ],
+      "mood": "low",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 17 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-11",
+      "logDate": "2026-01-11",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge",
+        "headache",
+        "sleep-changes",
+        "sex",
+        "fatigue",
+        "bloating",
+        "libido-changes",
+        "acne"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-12",
+      "logDate": "2026-01-12",
+      "bleeding": "none",
+      "symptoms": [
+        "sleep-changes",
+        "breast-tenderness",
+        "headache",
+        "sex",
+        "libido-changes",
+        "discharge"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-13",
+      "logDate": "2026-01-13",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "breast-tenderness"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-14",
+      "logDate": "2026-01-14",
+      "bleeding": "none",
+      "symptoms": [
+        "sex",
+        "headache",
+        "sleep-changes",
+        "cramps",
+        "acne"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-15",
+      "logDate": "2026-01-15",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps",
+        "fatigue",
+        "breast-tenderness",
+        "sex",
+        "sleep-changes"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-16",
+      "logDate": "2026-01-16",
+      "bleeding": "heavy",
+      "symptoms": [
+        "headache",
+        "cramps"
+      ],
+      "mood": "low",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 0 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-17",
+      "logDate": "2026-01-17",
+      "bleeding": "heavy",
+      "symptoms": [],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-18",
+      "logDate": "2026-01-18",
+      "bleeding": "medium",
+      "symptoms": [
+        "breast-tenderness",
+        "sleep-changes",
+        "discharge"
+      ]
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-19",
+      "logDate": "2026-01-19",
+      "bleeding": "medium",
+      "symptoms": [
+        "headache",
+        "discharge",
+        "cramps"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-20",
+      "logDate": "2026-01-20",
+      "bleeding": "light",
+      "symptoms": [
+        "discharge"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-21",
+      "logDate": "2026-01-21",
+      "bleeding": "none",
+      "symptoms": [
+        "sex",
+        "sleep-changes",
+        "libido-changes",
+        "discharge",
+        "cramps",
+        "acne",
+        "fatigue",
+        "breast-tenderness"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-22",
+      "logDate": "2026-01-22",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-23",
+      "logDate": "2026-01-23",
+      "bleeding": "none",
+      "symptoms": [
+        "headache",
+        "libido-changes"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-24",
+      "logDate": "2026-01-24",
+      "bleeding": "none",
+      "symptoms": [
+        "bloating",
+        "sleep-changes"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-25",
+      "logDate": "2026-01-25",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue",
+        "sex",
+        "cramps"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-26",
+      "logDate": "2026-01-26",
+      "bleeding": "none",
+      "symptoms": [
+        "breast-tenderness",
+        "sleep-changes",
+        "libido-changes",
+        "bloating",
+        "fatigue",
+        "sex",
+        "acne",
+        "discharge",
+        "headache"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-27",
+      "logDate": "2026-01-27",
+      "bleeding": "none",
+      "symptoms": [
+        "acne",
+        "cramps",
+        "sleep-changes",
+        "discharge",
+        "sex",
+        "headache"
+      ],
+      "mood": "energized",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 6 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-28",
+      "logDate": "2026-01-28",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge",
+        "bloating",
+        "fatigue",
+        "breast-tenderness",
+        "sex"
+      ],
+      "mood": "steady",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 7 marker for fixture traceability.)"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-29",
+      "logDate": "2026-01-29",
+      "bleeding": "none",
+      "symptoms": [
+        "sleep-changes",
+        "headache",
+        "fatigue",
+        "acne",
+        "breast-tenderness"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-30",
+      "logDate": "2026-01-30",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "breast-tenderness",
+        "acne",
+        "bloating",
+        "sex"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-01-31",
+      "logDate": "2026-01-31",
+      "bleeding": "none",
+      "symptoms": [
+        "sex",
+        "cramps",
+        "acne",
+        "fatigue",
+        "discharge",
+        "bloating",
+        "breast-tenderness"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-01",
+      "logDate": "2026-02-01",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps",
+        "bloating",
+        "breast-tenderness",
+        "sleep-changes",
+        "discharge"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-02",
+      "logDate": "2026-02-02",
+      "bleeding": "none",
+      "symptoms": [
+        "headache",
+        "sleep-changes",
+        "breast-tenderness"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-03",
+      "logDate": "2026-02-03",
+      "bleeding": "none",
+      "symptoms": [
+        "bloating",
+        "sleep-changes",
+        "discharge",
+        "acne",
+        "libido-changes",
+        "headache",
+        "sex",
+        "breast-tenderness",
+        "fatigue"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-04",
+      "logDate": "2026-02-04",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-05",
+      "logDate": "2026-02-05",
+      "bleeding": "none",
+      "symptoms": [
+        "breast-tenderness",
+        "sex"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-06",
+      "logDate": "2026-02-06",
+      "bleeding": "none",
+      "symptoms": [
+        "acne"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-07",
+      "logDate": "2026-02-07",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge",
+        "libido-changes",
+        "acne",
+        "breast-tenderness",
+        "sex",
+        "bloating",
+        "cramps",
+        "headache"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-08",
+      "logDate": "2026-02-08",
+      "bleeding": "none",
+      "symptoms": [
+        "sleep-changes",
+        "cramps",
+        "breast-tenderness",
+        "discharge",
+        "acne",
+        "sex",
+        "bloating"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-09",
+      "logDate": "2026-02-09",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "acne",
+        "bloating",
+        "sleep-changes",
+        "discharge",
+        "fatigue"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-10",
+      "logDate": "2026-02-10",
+      "bleeding": "none",
+      "symptoms": [
+        "sex",
+        "breast-tenderness",
+        "acne",
+        "cramps",
+        "fatigue",
+        "bloating",
+        "libido-changes",
+        "sleep-changes"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-11",
+      "logDate": "2026-02-11",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps",
+        "breast-tenderness",
+        "discharge",
+        "fatigue"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-12",
+      "logDate": "2026-02-12",
+      "bleeding": "none",
+      "symptoms": [
+        "headache"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-13",
+      "logDate": "2026-02-13",
+      "bleeding": "heavy",
+      "symptoms": [
+        "acne"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-14",
+      "logDate": "2026-02-14",
+      "bleeding": "heavy",
+      "symptoms": [
+        "sex",
+        "bloating"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-15",
+      "logDate": "2026-02-15",
+      "bleeding": "medium",
+      "symptoms": [
+        "fatigue"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-16",
+      "logDate": "2026-02-16",
+      "bleeding": "medium",
+      "symptoms": [
+        "acne"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-17",
+      "logDate": "2026-02-17",
+      "bleeding": "light",
+      "symptoms": [
+        "sex",
+        "fatigue",
+        "discharge"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-18",
+      "logDate": "2026-02-18",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps",
+        "discharge",
+        "sex",
+        "acne"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-19",
+      "logDate": "2026-02-19",
+      "bleeding": "none",
+      "symptoms": [
+        "headache",
+        "sex",
+        "sleep-changes"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-20",
+      "logDate": "2026-02-20",
+      "bleeding": "none",
+      "symptoms": [
+        "bloating",
+        "fatigue",
+        "headache",
+        "discharge",
+        "libido-changes",
+        "sex"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-21",
+      "logDate": "2026-02-21",
+      "bleeding": "none",
+      "symptoms": [],
+      "mood": "low",
+      "ttcObservation": {
+        "basalBodyTemperatureCelsius": 36.25
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-22",
+      "logDate": "2026-02-22",
+      "bleeding": "none",
+      "symptoms": [],
+      "mood": "sensitive",
+      "ttcObservation": {
+        "basalBodyTemperatureCelsius": 36.25
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-23",
+      "logDate": "2026-02-23",
+      "bleeding": "none",
+      "symptoms": [],
+      "mood": "energized",
+      "ttcObservation": {
+        "basalBodyTemperatureCelsius": 36.35
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-24",
+      "logDate": "2026-02-24",
+      "bleeding": "none",
+      "symptoms": [],
+      "mood": "steady",
+      "ttcObservation": {
+        "basalBodyTemperatureCelsius": 36.25
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-25",
+      "logDate": "2026-02-25",
+      "bleeding": "none",
+      "symptoms": [],
+      "ttcObservation": {
+        "cervicalMucus": "sticky",
+        "ovulationTest": "negative",
+        "basalBodyTemperatureCelsius": 36.25
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-26",
+      "logDate": "2026-02-26",
+      "bleeding": "none",
+      "symptoms": [],
+      "mood": "sensitive",
+      "ttcObservation": {
+        "cervicalMucus": "creamy",
+        "basalBodyTemperatureCelsius": 36.35,
+        "sexLogged": true
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-27",
+      "logDate": "2026-02-27",
+      "bleeding": "none",
+      "symptoms": [],
+      "mood": "energized",
+      "ttcObservation": {
+        "cervicalMucus": "egg-white",
+        "ovulationTest": "positive",
+        "basalBodyTemperatureCelsius": 36.35
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-02-28",
+      "logDate": "2026-02-28",
+      "bleeding": "none",
+      "symptoms": [],
+      "mood": "steady",
+      "ttcObservation": {
+        "cervicalMucus": "egg-white",
+        "basalBodyTemperatureCelsius": 36.35
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-01",
+      "logDate": "2026-03-01",
+      "bleeding": "none",
+      "symptoms": [],
+      "mood": "low",
+      "ttcObservation": {
+        "cervicalMucus": "sticky",
+        "basalBodyTemperatureCelsius": 36.6
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-02",
+      "logDate": "2026-03-02",
+      "bleeding": "none",
+      "symptoms": [],
+      "ttcObservation": {
+        "basalBodyTemperatureCelsius": 36.6
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-03",
+      "logDate": "2026-03-03",
+      "bleeding": "none",
+      "symptoms": [],
+      "mood": "energized",
+      "ttcObservation": {
+        "basalBodyTemperatureCelsius": 36.6
+      },
+      "birthControlEvent": {
+        "method": "pill",
+        "lateDose": true
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-04",
+      "logDate": "2026-03-04",
+      "bleeding": "none",
+      "symptoms": [
+        "breast-tenderness"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-05",
+      "logDate": "2026-03-05",
+      "bleeding": "none",
+      "symptoms": [
+        "acne",
+        "headache",
+        "fatigue",
+        "discharge",
+        "sex"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-06",
+      "logDate": "2026-03-06",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-07",
+      "logDate": "2026-03-07",
+      "bleeding": "none",
+      "symptoms": [
+        "sleep-changes",
+        "breast-tenderness"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-08",
+      "logDate": "2026-03-08",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "breast-tenderness",
+        "sex",
+        "cramps",
+        "fatigue",
+        "bloating",
+        "sleep-changes",
+        "discharge"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-09",
+      "logDate": "2026-03-09",
+      "bleeding": "none",
+      "symptoms": [
+        "sex",
+        "breast-tenderness",
+        "cramps",
+        "bloating",
+        "fatigue",
+        "discharge",
+        "acne",
+        "libido-changes"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-13",
+      "logDate": "2026-03-13",
+      "bleeding": "heavy",
+      "symptoms": [
+        "sex",
+        "sleep-changes",
+        "cramps"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-14",
+      "logDate": "2026-03-14",
+      "bleeding": "heavy",
+      "symptoms": [
+        "bloating",
+        "fatigue",
+        "acne"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-15",
+      "logDate": "2026-03-15",
+      "bleeding": "medium",
+      "symptoms": [],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-16",
+      "logDate": "2026-03-16",
+      "bleeding": "medium",
+      "symptoms": [
+        "cramps"
+      ]
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-17",
+      "logDate": "2026-03-17",
+      "bleeding": "light",
+      "symptoms": [],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-18",
+      "logDate": "2026-03-18",
+      "bleeding": "none",
+      "symptoms": [
+        "headache",
+        "sleep-changes",
+        "cramps"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-20",
+      "logDate": "2026-03-20",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue",
+        "headache"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-21",
+      "logDate": "2026-03-21",
+      "bleeding": "none",
+      "symptoms": [],
+      "mood": "sensitive",
+      "ttcObservation": {
+        "basalBodyTemperatureCelsius": 36.25
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-22",
+      "logDate": "2026-03-22",
+      "bleeding": "none",
+      "symptoms": [],
+      "ttcObservation": {
+        "basalBodyTemperatureCelsius": 36.25
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-23",
+      "logDate": "2026-03-23",
+      "bleeding": "none",
+      "symptoms": [],
+      "mood": "steady",
+      "ttcObservation": {
+        "basalBodyTemperatureCelsius": 36.25
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-24",
+      "logDate": "2026-03-24",
+      "bleeding": "none",
+      "symptoms": [],
+      "mood": "low",
+      "ttcObservation": {
+        "basalBodyTemperatureCelsius": 36.35
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-25",
+      "logDate": "2026-03-25",
+      "bleeding": "none",
+      "symptoms": [],
+      "mood": "sensitive",
+      "ttcObservation": {
+        "cervicalMucus": "sticky",
+        "ovulationTest": "negative",
+        "basalBodyTemperatureCelsius": 36.35
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-26",
+      "logDate": "2026-03-26",
+      "bleeding": "none",
+      "symptoms": [],
+      "ttcObservation": {
+        "cervicalMucus": "creamy",
+        "basalBodyTemperatureCelsius": 36.25,
+        "sexLogged": true
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-27",
+      "logDate": "2026-03-27",
+      "bleeding": "none",
+      "symptoms": [],
+      "mood": "steady",
+      "notes": "Logged this one in detail because the day felt different from the usual pattern: cramping started earlier than expected, energy dipped hard by mid-afternoon, and sleep was noticeably lighter than the last few nights. Keeping an eye on whether this repeats next cycle before mentioning it to anyone -- for now just want the detail on record in case the pattern holds up over the next few months of tracking. (day-index 9 marker for fixture traceability.)",
+      "ttcObservation": {
+        "cervicalMucus": "egg-white",
+        "ovulationTest": "positive",
+        "basalBodyTemperatureCelsius": 36.35
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-28",
+      "logDate": "2026-03-28",
+      "bleeding": "none",
+      "symptoms": [],
+      "mood": "low",
+      "ttcObservation": {
+        "cervicalMucus": "egg-white",
+        "basalBodyTemperatureCelsius": 36.25
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-29",
+      "logDate": "2026-03-29",
+      "bleeding": "none",
+      "symptoms": [],
+      "mood": "sensitive",
+      "ttcObservation": {
+        "cervicalMucus": "sticky",
+        "basalBodyTemperatureCelsius": 36.6
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-30",
+      "logDate": "2026-03-30",
+      "bleeding": "none",
+      "symptoms": [],
+      "mood": "energized",
+      "ttcObservation": {
+        "basalBodyTemperatureCelsius": 36.6
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-03-31",
+      "logDate": "2026-03-31",
+      "bleeding": "none",
+      "symptoms": [],
+      "mood": "steady",
+      "ttcObservation": {
+        "basalBodyTemperatureCelsius": 36.6
+      }
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-04-01",
+      "logDate": "2026-04-01",
+      "bleeding": "none",
+      "symptoms": [
+        "acne",
+        "sleep-changes",
+        "bloating",
+        "discharge",
+        "cramps",
+        "sex"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-04-02",
+      "logDate": "2026-04-02",
+      "bleeding": "none",
+      "symptoms": [
+        "discharge",
+        "acne",
+        "bloating",
+        "sex",
+        "breast-tenderness",
+        "sleep-changes",
+        "headache",
+        "fatigue"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-04-03",
+      "logDate": "2026-04-03",
+      "bleeding": "none",
+      "symptoms": [
+        "sleep-changes",
+        "fatigue"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-04-04",
+      "logDate": "2026-04-04",
+      "bleeding": "none",
+      "symptoms": [
+        "libido-changes",
+        "breast-tenderness",
+        "acne"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-04-05",
+      "logDate": "2026-04-05",
+      "bleeding": "none",
+      "symptoms": [
+        "sex",
+        "sleep-changes",
+        "fatigue",
+        "headache",
+        "cramps",
+        "libido-changes",
+        "acne"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-04-06",
+      "logDate": "2026-04-06",
+      "bleeding": "none",
+      "symptoms": [
+        "cramps",
+        "sex",
+        "bloating",
+        "headache",
+        "fatigue",
+        "breast-tenderness",
+        "acne"
+      ],
+      "mood": "sensitive"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-04-07",
+      "logDate": "2026-04-07",
+      "bleeding": "none",
+      "symptoms": [
+        "headache",
+        "cramps",
+        "libido-changes",
+        "discharge",
+        "sex",
+        "acne"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-04-08",
+      "logDate": "2026-04-08",
+      "bleeding": "none",
+      "symptoms": [
+        "bloating",
+        "headache"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-04-09",
+      "logDate": "2026-04-09",
+      "bleeding": "none",
+      "symptoms": [
+        "fatigue",
+        "libido-changes",
+        "acne",
+        "discharge",
+        "sleep-changes",
+        "breast-tenderness",
+        "sex",
+        "cramps",
+        "headache"
+      ],
+      "mood": "low"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-04-12",
+      "logDate": "2026-04-12",
+      "bleeding": "medium",
+      "symptoms": [
+        "headache"
+      ],
+      "mood": "steady"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-04-14",
+      "logDate": "2026-04-14",
+      "bleeding": "light",
+      "symptoms": [
+        "acne",
+        "sex"
+      ],
+      "mood": "energized"
+    },
+    {
+      "id": "tenure-log-tenure-12mo-regular-2026-04-15",
+      "logDate": "2026-04-15",
+      "bleeding": "none",
+      "symptoms": [
+        "bloating",
+        "breast-tenderness",
+        "headache",
+        "fatigue",
+        "cramps"
+      ],
+      "mood": "steady"
+    }
+  ]
+}

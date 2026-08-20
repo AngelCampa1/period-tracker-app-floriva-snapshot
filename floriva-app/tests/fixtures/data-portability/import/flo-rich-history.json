@@ -1,0 +1,26 @@
+{
+  "values": [
+    {
+      "recordedAt": "2026-04-14T08:00:00.000Z",
+      "category": "flow",
+      "value": "medium"
+    },
+    {
+      "recordedAt": "2026-04-14T08:01:00.000Z",
+      "category": "symptom",
+      "value": [
+        "fatigue"
+      ]
+    },
+    {
+      "recordedAt": "2026-04-14T08:02:00.000Z",
+      "category": "mood",
+      "value": "steady"
+    },
+    {
+      "recordedAt": "2026-04-14T08:03:00.000Z",
+      "category": "ovulation test",
+      "value": "positive"
+    }
+  ]
+}

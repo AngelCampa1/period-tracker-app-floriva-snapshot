@@ -1,0 +1,186 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "F10A1A21",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "59.99",
+      "familyShareable" : false,
+      "internalID" : "3C2A10A1",
+      "localizations" : [
+        {
+          "description" : "One-time purchase for lifetime Floriva Plus access on this store account.",
+          "displayName" : "Floriva Plus Lifetime",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "floriva.plus.lifetime",
+      "referenceName" : "Floriva Plus Lifetime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : {
+          "index" : 2,
+          "type" : "generic"
+        },
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : {
+          "index" : 1,
+          "type" : "purchase"
+        },
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : {
+          "index" : 0,
+          "type" : "verification"
+        },
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : {
+          "index" : 2,
+          "type" : "generic"
+        },
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : {
+          "index" : 3,
+          "type" : "generic"
+        },
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : {
+          "index" : 4,
+          "type" : "generic"
+        },
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "9B37C8F1",
+      "localizations" : [
+
+      ],
+      "name" : "Floriva Plus",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "39.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "A7E2B4C9",
+          "introductoryOffer" : {
+            "displayPrice" : "0",
+            "internalID" : "2A4F91C0",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1M"
+          },
+          "localizations" : [
+            {
+              "description" : "Annual Floriva Plus access with a 1 month free trial.",
+              "displayName" : "Floriva Plus Annual",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "floriva.plus.annual",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Floriva Plus Annual",
+          "subscriptionGroupID" : "9B37C8F1",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "5.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "D5F91A02",
+          "introductoryOffer" : {
+            "displayPrice" : "0",
+            "internalID" : "7B3D20E1",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1M"
+          },
+          "localizations" : [
+            {
+              "description" : "Monthly Floriva Plus access with a 1 month free trial.",
+              "displayName" : "Floriva Plus Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "floriva.plus.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Floriva Plus Monthly",
+          "subscriptionGroupID" : "9B37C8F1",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

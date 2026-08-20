@@ -1,0 +1,1 @@
+ALTER TABLE `billing_snapshot` ADD `lifetime_trial_started_at` text;

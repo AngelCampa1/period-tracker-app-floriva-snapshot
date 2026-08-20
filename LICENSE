@@ -1,0 +1,42 @@
+Copyright (c) 2026 Ventora Labs Corporation. All rights reserved.
+
+THIS IS NOT OPEN SOURCE SOFTWARE.
+
+This repository is published solely as a portfolio artifact, so that the
+engineering work it represents can be read and evaluated by prospective
+employers, collaborators, and clients.
+
+You may:
+
+  - View and read this source code.
+  - Reference it when evaluating the author's engineering work.
+  - Quote short excerpts for the purpose of commentary or review, with
+    attribution.
+
+You may not, without prior written permission from the copyright holder:
+
+  - Use this software or any part of it, in whole or in part, in any product
+    or service, commercial or non-commercial.
+  - Copy, reproduce, or redistribute this software or any substantial portion
+    of it.
+  - Modify this software or create derivative works from it.
+  - Publish, sublicense, sell, rent, or lease this software.
+  - Use it as training data for machine learning models.
+
+No license, express or implied, is granted to any patent, trademark, trade
+name, or other intellectual property of Ventora Labs Corporation. "Floriva"
+and the Floriva marks are not licensed for any use.
+
+Third-party dependencies referenced by this project remain under their own
+respective licenses, which are unaffected by this notice.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+This software is not a medical device. It does not provide medical advice,
+diagnosis, or treatment.

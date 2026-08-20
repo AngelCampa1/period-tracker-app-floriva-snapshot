@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "day": "2019-02-11T06:00:00.000Z",
+      "flow": "medium",
+      "symptoms": [
+        "cramps"
+      ],
+      "note": "Old Clue export row -- more than 12 months before fixture reference date."
+    },
+    {
+      "day": "2019-02-12T06:00:00.000Z",
+      "flow": "light",
+      "emotion": "calm",
+      "symptoms": [
+        "fatigue"
+      ]
+    },
+    {
+      "day": "2019-02-13T06:00:00.000Z",
+      "period": "none",
+      "emotion": "happy"
+    }
+  ]
+}

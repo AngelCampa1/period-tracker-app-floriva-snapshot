@@ -1,0 +1,114 @@
+require File.join(File.dirname(`node --print "require.resolve('expo/package.json')"`), "scripts/autolinking")
+require File.join(File.dirname(`node --print "require.resolve('react-native/package.json')"`), "scripts/react_native_pods")
+
+require 'json'
+podfile_properties = JSON.parse(File.read(File.join(__dir__, 'Podfile.properties.json'))) rescue {}
+
+def ccache_enabled?(podfile_properties)
+  # Environment variable takes precedence
+  return ENV['USE_CCACHE'] == '1' if ENV['USE_CCACHE']
+  
+  # Fall back to Podfile properties
+  podfile_properties['apple.ccacheEnabled'] == 'true'
+end
+
+ENV['RCT_NEW_ARCH_ENABLED'] ||= '0' if podfile_properties['newArchEnabled'] == 'false'
+ENV['EX_DEV_CLIENT_NETWORK_INSPECTOR'] ||= podfile_properties['EX_DEV_CLIENT_NETWORK_INSPECTOR']
+ENV['RCT_BUILD_HERMES_FROM_SOURCE'] = 'true' if podfile_properties['ios.buildHermesFromSource'] == 'true'
+ENV['RCT_USE_RN_DEP'] ||= '1' if podfile_properties['ios.buildReactNativeFromSource'] != 'true' && podfile_properties['newArchEnabled'] != 'false'
+ENV['RCT_USE_PREBUILT_RNCORE'] ||= '1' if podfile_properties['ios.buildReactNativeFromSource'] != 'true' && podfile_properties['newArchEnabled'] != 'false'
+platform :ios, podfile_properties['ios.deploymentTarget'] || '15.1'
+
+prepare_react_native_project!
+
+target 'Floriva' do
+  use_expo_modules!
+
+  if ENV['EXPO_USE_COMMUNITY_AUTOLINKING'] == '1'
+    config_command = ['node', '-e', "process.argv=['', '', 'config'];require('@react-native-community/cli').run()"];
+  else
+    config_command = [
+      'node',
+      '--no-warnings',
+      '--eval',
+      'require(\'expo/bin/autolinking\')',
+      'expo-modules-autolinking',
+      'react-native-config',
+      '--json',
+      '--platform',
+      'ios'
+    ]
+  end
+
+  config = use_native_modules!(config_command)
+
+  use_frameworks! :linkage => podfile_properties['ios.useFrameworks'].to_sym if podfile_properties['ios.useFrameworks']
+  use_frameworks! :linkage => ENV['USE_FRAMEWORKS'].to_sym if ENV['USE_FRAMEWORKS']
+
+  use_react_native!(
+    :path => config[:reactNativePath],
+    :hermes_enabled => podfile_properties['expo.jsEngine'] == nil || podfile_properties['expo.jsEngine'] == 'hermes',
+    # An absolute path to your application root.
+    :app_path => "#{Pod::Config.instance.installation_root}/..",
+    :privacy_file_aggregation_enabled => podfile_properties['apple.privacyManifestAggregationEnabled'] != 'false',
+  )
+
+  post_install do |installer|
+    react_native_post_install(
+      installer,
+      config[:reactNativePath],
+      :mac_catalyst_enabled => false,
+      :ccache_enabled => ccache_enabled?(podfile_properties),
+    )
+
+    hermes_build_script = File.join(__dir__, 'Pods', 'hermes-engine', 'utils', 'build-apple-framework.sh')
+    if File.exist?(hermes_build_script)
+      script = File.read(hermes_build_script)
+      patched_script = script.gsub(
+        /cmake -S \. -B build_host_hermesc(?: -DCMAKE_BUILD_TYPE="\$BUILD_TYPE")*/,
+        'cmake -S . -B build_host_hermesc -DCMAKE_BUILD_TYPE="$BUILD_TYPE"'
+      )
+      patched_script = patched_script.gsub(
+        "  fi\n}\n\n# Accepts an array of frameworks",
+        "  fi\n\n  /usr/libexec/PlistBuddy -c \"Set :MinimumOSVersion 15.1\" \"./destroot/Library/Frameworks/$1/hermes.framework/Info.plist\" 2>/dev/null || \\\n    /usr/libexec/PlistBuddy -c \"Add :MinimumOSVersion string 15.1\" \"./destroot/Library/Frameworks/$1/hermes.framework/Info.plist\"\n}\n\n# Accepts an array of frameworks"
+      )
+      File.write(hermes_build_script, patched_script) if patched_script != script
+    end
+
+    hermes_framework_plists = Dir.glob(
+      File.join(__dir__, 'Pods', 'hermes-engine', '{destroot/Library/Frameworks/*,build/*/API/hermes}', 'hermes.framework', 'Info.plist')
+    )
+    hermes_framework_plists.each do |plist_path|
+      system('/usr/libexec/PlistBuddy', '-c', 'Set :MinimumOSVersion 15.1', plist_path, out: File::NULL, err: File::NULL) ||
+        system('/usr/libexec/PlistBuddy', '-c', 'Add :MinimumOSVersion string 15.1', plist_path)
+    end
+
+    pods_frameworks_script = File.join(__dir__, 'Pods', 'Target Support Files', 'Pods-Floriva', 'Pods-Floriva-frameworks.sh')
+    if File.exist?(pods_frameworks_script)
+      script = File.read(pods_frameworks_script)
+      hermes_embed_patch = <<~'SH'
+        if [ "$(basename "$1")" = "hermes.framework" ]; then
+          /usr/libexec/PlistBuddy -c "Set :MinimumOSVersion 15.1" "${destination}/hermes.framework/Info.plist" 2>/dev/null || \
+            /usr/libexec/PlistBuddy -c "Add :MinimumOSVersion string 15.1" "${destination}/hermes.framework/Info.plist"
+        fi
+
+      SH
+      unless script.include?('Set :MinimumOSVersion 15.1')
+        script = script.sub('  # Resign the code if required by the build settings to avoid unstable apps', "#{hermes_embed_patch}  # Resign the code if required by the build settings to avoid unstable apps")
+        File.write(pods_frameworks_script, script)
+      end
+    end
+
+    installer.pods_project.targets.each do |target|
+      next unless target.name == 'fmt'
+
+      target.build_configurations.each do |build_configuration|
+        definitions = build_configuration.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= ['$(inherited)']
+        definitions = [definitions] unless definitions.is_a?(Array)
+        definitions << 'FMT_USE_CONSTEVAL=0' unless definitions.include?('FMT_USE_CONSTEVAL=0')
+        build_configuration.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] = definitions
+        build_configuration.build_settings['CLANG_CXX_LANGUAGE_STANDARD'] = 'c++17'
+      end
+    end
+  end
+end

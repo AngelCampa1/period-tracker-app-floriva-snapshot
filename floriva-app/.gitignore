@@ -1,0 +1,59 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+coverage/
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+/.local/
+credentials.json
+
+# typescript
+*.tsbuildinfo
+
+# native build outputs
+/build/
+/ios/Pods/
+/ios/build/
+/ios/build-storekit/
+/ios/.xcode.env.local
+/android/.gradle/
+/android/build/
+/android/app/build/
+/android/local.properties
+
+# Detox e2e run artifacts
+/artifacts/
+# Android emulator stdout logs (e.g. Pixel_9_API_35-12345.log)
+*-API_*.log
+
+# This repo uses pnpm; ignore npm lockfile drift
+package-lock.json
